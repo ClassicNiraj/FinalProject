@@ -8,7 +8,7 @@ class StaffLogin{
     public User Login(){
         Console.WriteLine("--Welcome to the Package Managment Application--");
         Console.WriteLine("Please input your name (staff_username): ");
-        user.staffID = Console.ReadLine();
+        user.staffID = Convert.ToChar(Console.ReadLine());
         Console.WriteLine("Please input staff password: ");
         user.staffPassword = Console.ReadLine();
         return user;

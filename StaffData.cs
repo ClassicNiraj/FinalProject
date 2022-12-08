@@ -4,7 +4,7 @@ using MySql.Data;
 using MySql.Data.MySqlClient;
 class StaffData{
     public string connStr = "server=20.172.0.16;user=nsbhakta1;database=nsbhakta1;port=8080;password=nsbhakta1";
-    public bool LoginStaffCount(User user){
+    public bool LoginCheck(User user){
         MySqlConnection conn = new MySqlConnection(connStr);
         try
         {  
